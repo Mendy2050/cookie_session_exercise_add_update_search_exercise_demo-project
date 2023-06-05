@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:41:28 +0100] "GET /cookie-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:41:28 +0100] "GET /cookie-demo/ HTTP/1.1" 404 975 http-bio-8080-exec-3 19
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:41:37 +0100] "GET /cookie-demo/login.jsp HTTP/1.1" 200 886 http-bio-8080-exec-4 783
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:41:46 +0100] "GET /cookie-demo/loginServlet?username=zhangsan&password=123&remember=1 HTTP/1.1" 302 - http-bio-8080-exec-5 477
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:41:46 +0100] "GET /cookie-demo/selectAllServlet HTTP/1.1" 200 2743 http-bio-8080-exec-6 36
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:42:05 +0100] "GET /cookie-demo HTTP/1.1" 302 - http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:42:05 +0100] "GET /cookie-demo/ HTTP/1.1" 404 975 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:42:05 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:42:14 +0100] "GET /cookie-demo/login.jsp HTTP/1.1" 200 886 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:44:14 +0100] "GET /cookie-demo/login.jsp HTTP/1.1" 200 886 http-bio-8080-exec-5 3
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:44:14 +0100] "GET /cookie-demo/imgs/Desert1.jpg HTTP/1.1" 200 1631571 http-bio-8080-exec-7 44
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:44:16 +0100] "GET /cookie-demo/login.jsp HTTP/1.1" 200 886 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:50:21 +0100] "GET /cookie-demo/login.jsp HTTP/1.1" 200 915 http-bio-8080-exec-1 1472
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:50:31 +0100] "GET /cookie-demo/loginServlet?username=zhangsan&password=123 HTTP/1.1" 302 - http-bio-8080-exec-3 534
+0:0:0:0:0:0:0:1 - - [01/Jun/2023:16:50:31 +0100] "GET /cookie-demo/selectAllServlet HTTP/1.1" 200 2743 http-bio-8080-exec-4 36

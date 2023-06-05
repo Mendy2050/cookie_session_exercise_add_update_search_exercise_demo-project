@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:24:44 +0100] "GET /cookie-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:24:44 +0100] "GET /cookie-demo/ HTTP/1.1" 404 975 http-bio-8080-exec-3 12
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:25:11 +0100] "GET /cookie-demo/aServlet HTTP/1.1" 200 - http-bio-8080-exec-4 5
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:41:57 +0100] "GET /cookie-demo/aServlet HTTP/1.1" 200 - http-bio-8080-exec-6 3
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:47:14 +0100] "GET /cookie-demo/aServlet HTTP/1.1" 200 - http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:55:06 +0100] "GET /cookie-demo/aServlet HTTP/1.1" 200 - http-bio-8080-exec-2 95
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:55:24 +0100] "GET /cookie-demo/bServlet HTTP/1.1" 200 - http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:59:36 +0100] "GET /cookie-demo/aServlet HTTP/1.1" 200 - http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:59:36 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [30/May/2023:15:59:49 +0100] "GET /cookie-demo/aServlet HTTP/1.1" 200 - http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [30/May/2023:16:01:44 +0100] "GET /cookie-demo/bServlet HTTP/1.1" 200 - http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [30/May/2023:16:16:35 +0100] "GET /cookie-demo/aServlet HTTP/1.1" 200 - http-bio-8080-exec-1 65
+0:0:0:0:0:0:0:1 - - [30/May/2023:16:17:20 +0100] "GET /cookie-demo/bServlet HTTP/1.1" 200 - http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [30/May/2023:16:19:10 +0100] "GET /cookie-demo/bServlet HTTP/1.1" 200 - http-bio-8080-exec-1 31
